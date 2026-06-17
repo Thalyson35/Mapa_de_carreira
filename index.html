@@ -27,6 +27,41 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
 	<link id="theme-style" rel="stylesheet" href="assets/css/bootstrap-6.css">
 	<style>
+		:root {
+			--bs-primary: #0d6efd;
+			--bs-link-color: #0d6efd;
+		}
+
+		.bg-primary,
+		.resume-wrapper-inner.bg-primary {
+			background-color: #0d6efd !important;
+		}
+
+		.btn-primary {
+			--bs-btn-bg: #0d6efd;
+			--bs-btn-border-color: #0d6efd;
+			background-color: #0d6efd !important;
+			border-color: #0d6efd !important;
+		}
+
+		.btn-primary:hover,
+		.btn-primary:focus {
+			background-color: #0b5ed7 !important;
+			border-color: #0a58ca !important;
+		}
+
+		.text-link,
+		.text-link:hover,
+		.text-link:focus {
+			color: #ffffff !important;
+			text-decoration: none !important;
+		}
+
+		.resume-header .text-link:hover,
+		.resume-header .text-link:focus {
+			color: #b8d4ff !important;
+		}
+
 		.skip-link {
 			left: 1rem;
 			position: absolute;
@@ -36,6 +71,10 @@
 
 		.skip-link:focus {
 			top: 1rem;
+		}
+
+		.resume-picture-holder {
+			margin-top: 1.5rem;
 		}
 
 		.profile-picture {
